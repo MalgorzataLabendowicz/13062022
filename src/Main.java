@@ -1,14 +1,12 @@
 public class Main {
-    public static void main(String args[]){
-        System.out.println("Hello World");
-        System.out.println("Cześć Alicja");
-        System.out.print("Cześć Alicja");
-        System.out.println("Cześć Alicja");
+    public static void main(String[] args){
+        String text = "Podstawy programowania";
 
-        Car Opel = new Car();
-        Car Kia = new Car("Ceed","white","petrol");
+        char Nazwa1 = '1';
+        char Alpha = '\u03B1';
 
-        Kia.startEngine();
-        Kia.stopEngine("50");
+        System.out.println(Character.isDigit(Nazwa1));
+        Character.isDigit(Nazwa1);
+        System.out.println(Alpha);
     }
 }

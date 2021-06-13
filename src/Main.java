@@ -9,5 +9,6 @@ public class Main {
         Car Kia = new Car("Ceed","white","petrol");
 
         Kia.startEngine();
+        Kia.stopEngine("50");
     }
 }

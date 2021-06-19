@@ -12,6 +12,10 @@ public class Main {
     Alpha.setPrice(123);
     Alpha.getPrice();
     Alpha.printMotocykleInfo();
+
+    Alpha.checkifBMW();
+    Alpha.setModel("BMW");
+    Alpha.checkifBMW();
     }
 
 }

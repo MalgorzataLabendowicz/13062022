@@ -58,4 +58,17 @@ public class Motocykle {
         System.out.println("Rozmiar to: " + this.size);
 
     }
+    public boolean checkifBMW(){
+        if (this.model == "BMW"){
+            this.price += 5000;
+            return true;
+        }
+        return false;
+    }
+    public void checkPriceRange(){
+        if(this.price> 10000 & this.price<20000 ){
+            System.out.println("Motocykl znajduje się w przedziale");
+            }
+        System.out.println("Nasz motocykl nie znajduje się w przedziale");
+    }
 }

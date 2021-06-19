@@ -69,6 +69,9 @@ public class Motocykle {
         if(this.price> 10000 & this.price<20000 ){
             System.out.println("Motocykl znajduje się w przedziale");
             }
-        System.out.println("Nasz motocykl nie znajduje się w przedziale");
+        else System.out.println("Nasz motocykl nie znajduje się w przedziale");
+    }
+    public double changeCurrency(double dolarPrice) {
+        return this.price *= dolarPrice;
     }
 }

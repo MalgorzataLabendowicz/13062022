@@ -13,9 +13,13 @@ public class Main {
     Alpha.getPrice();
     Alpha.printMotocykleInfo();
 
-    Alpha.checkifBMW();
-    Alpha.setModel("BMW");
-    Alpha.checkifBMW();
+//    Alpha.checkifBMW();
+//    Alpha.setModel("BMW");
+//    Alpha.checkifBMW();
+//    Alpha.checkPriceRange();
+
+    Alpha.changeCurrency(4.5);
+    Alpha.getPrice();
     }
 
 }

@@ -6,5 +6,12 @@ public class Main {
 
     Car Seat = new Car("white","petrol","cos", 2004);
     Seat.checkIffrom2000();
+
+    Motocykle Alpha = new Motocykle(2000,"Beta", 4.0, 2000, 'L');
+    Alpha.getPrice();
+    Alpha.setPrice(123);
+    Alpha.getPrice();
+    Alpha.printMotocykleInfo();
     }
+
 }
